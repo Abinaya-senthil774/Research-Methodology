@@ -1,0 +1,117 @@
+
+
+[1]  Paper   : Automatic acoustic detection of the red palm weevil (Pinhas et al., 2008)
+     Dataset : Authors' own acoustic recordings of larval activity from infested and healthy
+               young date palms (Israel)
+
+[2]  Paper   : Portable acoustic device for detection of coconut palms infested by
+               Rynchophorus ferrugineus (Siriwardena et al., 2010)
+     Dataset : Authors' own field acoustic recordings from coconut palms (Sri Lanka)
+
+
+[3]  Paper   : Smart IoT thermal imaging approach for early identification of Red Palm Weevil
+               (RPW) infestation on palms (Martin, Saranya & Chowdary, 2026)
+     Dataset : Authors' own trunk thermal images captured with a Raspberry Pi thermal camera
+
+
+[4]  Paper   : A deep-learning model for real-time red palm weevil detection and localization
+               (Alsanea et al., 2022)
+     Dataset : Authors' images of RPW and other palm-habitat insects (Al-Qassim region, Saudi Arabia)
+
+
+[5]  Paper   : Automatic large scale detection of red palm weevil infestation using street view
+               images (Kagan, Fuhrmann Alpert & Fire, 2021)
+     Dataset : 47,000+ aerial images and 61,000+ street-level (street view) images of urban palms
+               gathered from online map imagery
+
+
+[6]  Paper   : TreeVibes: Modern tools for global monitoring of trees for borers (Rigakis et al., 2021)
+     Dataset : TreeVibes - labelled trunk vibration/acoustic recordings (infested and clean trees)
+     Link    : https://www.kaggle.com/datasets/potamitis/treevibes
+
+[7]  Paper   : Early detection of red palm weevil infestation using data mining (Kurdi et al., 2021)
+     Dataset : Authors' curated RPW infestation dataset (Saudi Arabia), used with 10 classical ML models
+
+[8]  Paper   : Early detection of red palm weevil infestations using deep learning classification of
+               acoustic signals (Boulila et al., 2023)
+     Dataset : TreeVibes acoustic recordings converted to spectrogram images
+     Link    : https://www.kaggle.com/datasets/potamitis/treevibes
+
+[9]  Paper   : Enhanced YOLOv5 object detection algorithm for accurate detection of adult
+               Rhynchophorus ferrugineus (Wu et al., 2023)
+     Dataset : Authors' own ~2,600 RGB images of adult red palm weevils (varied scenes, poses, lighting)
+
+
+[10] Paper   : Dataset of date palm tree (Phoenix dactylifera L.) thermal images and their
+               classification based on Red Palm Weevil infestation (Nadeem et al., 2025)
+     Dataset : A Dataset of Date Palm Trees' Thermal and RGB Images for Pest Management
+               (832 RGB + thermal images, 179 trees, 4 classes, Khairpur, Pakistan)
+     Link    : https://figshare.com/articles/dataset/A_Dataset_of_Date_Palm_Trees_Thermal_and_RGB_Images_for_Pest_Management_/25974295
+
+[11] Paper   : Coconut (Cocos nucifera) tree disease dataset: A dataset for disease detection and
+               classification for machine learning applications (Thite et al., 2023)
+     Dataset : Coconut Tree Disease Dataset (5,798 images; Bud Root Dropping, Bud Rot, Gray Leaf
+               Spot, Leaf Rot, Stem Bleeding)
+     Link    : https://data.mendeley.com/datasets/gh56wbsnj5/1
+
+[12] Paper   : AMS-YOLO: Multi-scale feature integration for intelligent plant protection against
+               maize pests (Deng et al., 2025)
+     Dataset : 13-class maize pest image dataset compiled by the authors
+
+
+[13] Paper   : Maize-YOLO: A new high-precision and real-time method for maize pest detection
+               (Yang et al., 2023)
+     Dataset : IP102 insect pest benchmark (maize subset: 13 classes, 4,533 images)
+     Link    : https://github.com/xpwu95/IP102
+
+[14] Paper   : Rice disease identification method based on improved CNN-BiGRU (Lu et al., 2023)
+     Dataset : Rice disease leaf image dataset used by the authors
+
+
+[15] Paper   : YOLO deep learning algorithm for object detection in agriculture: A review
+               (Kamalesh Kanna et al., 2024)
+     Dataset : None (review paper)
+ 
+
+[16] Paper   : Towards detecting red palm weevil using machine learning and fiber optic
+               distributed acoustic sensing (Wang et al., 2021)
+     Dataset : Authors' own fibre-optic DAS acoustic recordings (lab and farm, Saudi Arabia)
+  
+
+[17] Paper   : Real time red palm weevil detection in coconut tree via multimodal sensor data
+               based deep learning network - RED-BIYO (Susan T et al., 2026)
+     Dataset : Proprietary multimodal dataset of coconut stem images and acoustic recordings
+               (Tamil Nadu, June-December 2024); authors state it cannot be released
+  
+
+[18] Paper   : COMICS: Coconut microphone sensor and stem image-based IoT automation in red palm
+               weevil infestation detection (Sowmya Sundari et al., 2026)
+     Dataset : Images - Coconut (Cocos nucifera) Tree Disease Dataset [11];
+               Audio  - authors' own INMP441 microphone recordings from coconut stems (NA)
+     Link    : https://data.mendeley.com/datasets/gh56wbsnj5/1
+
+[19] Paper   : Multi-modal fusion of acoustic and microwave signals for early detection of Red Palm
+               Weevil infestation (Stephen, Martin & Rajesh, 2026)
+     Dataset : Authors' own acoustic clips (1,332 RPW / 1,745 non-RPW) and 2,000 microwave
+               (CSRR sensor) samples
+
+
+[20] Paper   : Machine learning-enabled acoustic sensing for RPW infestation detection
+               (Saranya & Martin, 2025)
+     Dataset : ~3,000 RPW / non-RPW acoustic segments recorded in coconut farms around Thanjavur,
+               Tamil Nadu (private institutional repository; samples on request)
+   
+
+[21] Paper   : YOLOv11-Nano RPW detection paper (Sarveshwaran B. et al., DELCON 2025)
+     Dataset : Trunk / RGB image dataset - please confirm from the paper
+ 
+
+[22] Paper   : Acoustic FFNN RPW detection paper (Abinaya S. et al., DELCON 2025)
+     Dataset : Acoustic recordings (MFCC + spectral-contrast features) - please confirm from the paper
+
+
+
+DATASETS SELECTED FOR THE PROPOSED SYSTEM
+  Audio branch  : TreeVibes            - https://www.kaggle.com/datasets/potamitis/treevibes
+  Visual branch : Red Palm Weevil object detection dataset (Roboflow Universe, ENIS)
+                                       - https://universe.roboflow.com/enis-w5nbu/red-palm-weevil-yfykp
